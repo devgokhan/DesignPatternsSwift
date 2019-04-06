@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2141FEE32258CCA9009B6E5A /* PrototypeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2141FEE22258CCA9009B6E5A /* PrototypeModel.swift */; };
+		2141FEE52258CD26009B6E5A /* SubPrototypeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2141FEE42258CD26009B6E5A /* SubPrototypeModel.swift */; };
+		2141FEE82258CDE9009B6E5A /* PrototypePatternViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2141FEE62258CDE9009B6E5A /* PrototypePatternViewController.swift */; };
+		2141FEE92258CDE9009B6E5A /* PrototypePatternViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2141FEE72258CDE9009B6E5A /* PrototypePatternViewController.xib */; };
+		2141FEED2258E667009B6E5A /* ImitatePatternViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2141FEEB2258E667009B6E5A /* ImitatePatternViewController.swift */; };
+		2141FEEE2258E667009B6E5A /* ImitatePatternViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2141FEEC2258E667009B6E5A /* ImitatePatternViewController.xib */; };
+		2141FEF02258E6D0009B6E5A /* GroundVehiclesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2141FEEF2258E6D0009B6E5A /* GroundVehiclesModel.swift */; };
+		2141FEF22258E97D009B6E5A /* OrderCarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2141FEF12258E97C009B6E5A /* OrderCarModel.swift */; };
 		21C4ED9D22548C96003EFE28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C4ED9C22548C96003EFE28 /* AppDelegate.swift */; };
 		21C4ED9F22548C96003EFE28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C4ED9E22548C96003EFE28 /* ViewController.swift */; };
 		21C4EDA222548C96003EFE28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21C4EDA022548C96003EFE28 /* Main.storyboard */; };
@@ -22,6 +30,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2141FEE22258CCA9009B6E5A /* PrototypeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeModel.swift; sourceTree = "<group>"; };
+		2141FEE42258CD26009B6E5A /* SubPrototypeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubPrototypeModel.swift; sourceTree = "<group>"; };
+		2141FEE62258CDE9009B6E5A /* PrototypePatternViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypePatternViewController.swift; sourceTree = "<group>"; };
+		2141FEE72258CDE9009B6E5A /* PrototypePatternViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PrototypePatternViewController.xib; sourceTree = "<group>"; };
+		2141FEEB2258E667009B6E5A /* ImitatePatternViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImitatePatternViewController.swift; sourceTree = "<group>"; };
+		2141FEEC2258E667009B6E5A /* ImitatePatternViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImitatePatternViewController.xib; sourceTree = "<group>"; };
+		2141FEEF2258E6D0009B6E5A /* GroundVehiclesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroundVehiclesModel.swift; sourceTree = "<group>"; };
+		2141FEF12258E97C009B6E5A /* OrderCarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCarModel.swift; sourceTree = "<group>"; };
 		21C4ED9922548C95003EFE28 /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21C4ED9C22548C96003EFE28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21C4ED9E22548C96003EFE28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +65,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2141FEDE2258CC27009B6E5A /* Creational Patterns */ = {
+			isa = PBXGroup;
+			children = (
+				2141FEEA2258E61D009B6E5A /* New- ImitatePattern */,
+				2141FEDF2258CC4D009B6E5A /* Prototype Pattern */,
+			);
+			path = "Creational Patterns";
+			sourceTree = "<group>";
+		};
+		2141FEDF2258CC4D009B6E5A /* Prototype Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				2141FEE22258CCA9009B6E5A /* PrototypeModel.swift */,
+				2141FEE42258CD26009B6E5A /* SubPrototypeModel.swift */,
+				2141FEE62258CDE9009B6E5A /* PrototypePatternViewController.swift */,
+				2141FEE72258CDE9009B6E5A /* PrototypePatternViewController.xib */,
+			);
+			path = "Prototype Pattern";
+			sourceTree = "<group>";
+		};
+		2141FEEA2258E61D009B6E5A /* New- ImitatePattern */ = {
+			isa = PBXGroup;
+			children = (
+				2141FEEB2258E667009B6E5A /* ImitatePatternViewController.swift */,
+				2141FEEC2258E667009B6E5A /* ImitatePatternViewController.xib */,
+				2141FEEF2258E6D0009B6E5A /* GroundVehiclesModel.swift */,
+				2141FEF12258E97C009B6E5A /* OrderCarModel.swift */,
+			);
+			path = "New- ImitatePattern";
+			sourceTree = "<group>";
+		};
 		21C4ED9022548C95003EFE28 = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +118,7 @@
 				21C4EDB822549459003EFE28 /* Extensions */,
 				21C4EDB5225493C2003EFE28 /* Utils */,
 				21C4EDB222548DB8003EFE28 /* Models */,
+				2141FEDE2258CC27009B6E5A /* Creational Patterns */,
 				21C4EDAE22548CC2003EFE28 /* Behavioral Patterns */,
 				21C4ED9C22548C96003EFE28 /* AppDelegate.swift */,
 				21C4ED9E22548C96003EFE28 /* ViewController.swift */,
@@ -183,10 +231,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2141FEEE2258E667009B6E5A /* ImitatePatternViewController.xib in Resources */,
 				21C4EDA722548C98003EFE28 /* LaunchScreen.storyboard in Resources */,
 				21C4EDA422548C98003EFE28 /* Assets.xcassets in Resources */,
 				21C4EDC022549A96003EFE28 /* TemplateViewController.xib in Resources */,
 				21C4EDA222548C96003EFE28 /* Main.storyboard in Resources */,
+				2141FEE92258CDE9009B6E5A /* PrototypePatternViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,14 +247,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2141FEE82258CDE9009B6E5A /* PrototypePatternViewController.swift in Sources */,
+				2141FEE32258CCA9009B6E5A /* PrototypeModel.swift in Sources */,
 				21C4EDBA2254946E003EFE28 /* UIViewController+DP.swift in Sources */,
+				2141FEED2258E667009B6E5A /* ImitatePatternViewController.swift in Sources */,
 				21C4EDB7225493D3003EFE28 /* Utils.swift in Sources */,
+				2141FEE52258CD26009B6E5A /* SubPrototypeModel.swift in Sources */,
 				21C4EDC222549B94003EFE28 /* TemplateBaseViewController.swift in Sources */,
+				2141FEF22258E97D009B6E5A /* OrderCarModel.swift in Sources */,
 				21C4ED9F22548C96003EFE28 /* ViewController.swift in Sources */,
 				21C4ED9D22548C96003EFE28 /* AppDelegate.swift in Sources */,
 				21C4EDBC225494DF003EFE28 /* Enums.swift in Sources */,
 				21C4EDB422548E0F003EFE28 /* CategoriesModel.swift in Sources */,
 				21C4EDBF22549A96003EFE28 /* TemplateViewController.swift in Sources */,
+				2141FEF02258E6D0009B6E5A /* GroundVehiclesModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

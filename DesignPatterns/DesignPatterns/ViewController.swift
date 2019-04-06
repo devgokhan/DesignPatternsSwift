@@ -23,6 +23,18 @@ class ViewController: UIViewController {
     {
         if(self.firstEnter)
         {
+            categories.append(CategoriesModel(title: "Creational Patterns", subCategories:
+                [
+                    CategoriesModel(title: "NEW! - Imitate Pattern", action: {
+                        self.navigationController?.pushViewController(ImitatePatternViewController(), animated: true)
+                    }),
+                    
+                    CategoriesModel(title: "Prototype Pattern", action: {
+                        self.navigationController?.pushViewController(PrototypePatternViewController(), animated: true)
+                    })
+                ]
+            ))
+            
             categories.append(CategoriesModel(title: "Behavioral Patterns", subCategories:
                 [
                     CategoriesModel(title: "Template Pattern", action: {
