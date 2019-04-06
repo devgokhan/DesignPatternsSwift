@@ -15,6 +15,12 @@
 		2141FEEE2258E667009B6E5A /* ImitatePatternViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2141FEEC2258E667009B6E5A /* ImitatePatternViewController.xib */; };
 		2141FEF02258E6D0009B6E5A /* GroundVehiclesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2141FEEF2258E6D0009B6E5A /* GroundVehiclesModel.swift */; };
 		2141FEF22258E97D009B6E5A /* OrderCarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2141FEF12258E97C009B6E5A /* OrderCarModel.swift */; };
+		21476FFC225927AB005A5029 /* SingletonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21476FFA225927AB005A5029 /* SingletonViewController.swift */; };
+		21476FFD225927AB005A5029 /* SingletonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21476FFB225927AB005A5029 /* SingletonViewController.xib */; };
+		21476FFF2259285C005A5029 /* SingletonClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21476FFE2259285C005A5029 /* SingletonClass.swift */; };
+		214770032259313B005A5029 /* ProtectedTemplatePatternViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214770012259313B005A5029 /* ProtectedTemplatePatternViewController.swift */; };
+		214770042259313B005A5029 /* ProtectedTemplatePatternViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 214770022259313B005A5029 /* ProtectedTemplatePatternViewController.xib */; };
+		2147700622593161005A5029 /* ProtectedTemplatePatternBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2147700522593161005A5029 /* ProtectedTemplatePatternBaseViewController.swift */; };
 		21C4ED9D22548C96003EFE28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C4ED9C22548C96003EFE28 /* AppDelegate.swift */; };
 		21C4ED9F22548C96003EFE28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C4ED9E22548C96003EFE28 /* ViewController.swift */; };
 		21C4EDA222548C96003EFE28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21C4EDA022548C96003EFE28 /* Main.storyboard */; };
@@ -38,6 +44,12 @@
 		2141FEEC2258E667009B6E5A /* ImitatePatternViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImitatePatternViewController.xib; sourceTree = "<group>"; };
 		2141FEEF2258E6D0009B6E5A /* GroundVehiclesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroundVehiclesModel.swift; sourceTree = "<group>"; };
 		2141FEF12258E97C009B6E5A /* OrderCarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCarModel.swift; sourceTree = "<group>"; };
+		21476FFA225927AB005A5029 /* SingletonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonViewController.swift; sourceTree = "<group>"; };
+		21476FFB225927AB005A5029 /* SingletonViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SingletonViewController.xib; sourceTree = "<group>"; };
+		21476FFE2259285C005A5029 /* SingletonClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonClass.swift; sourceTree = "<group>"; };
+		214770012259313B005A5029 /* ProtectedTemplatePatternViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtectedTemplatePatternViewController.swift; sourceTree = "<group>"; };
+		214770022259313B005A5029 /* ProtectedTemplatePatternViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProtectedTemplatePatternViewController.xib; sourceTree = "<group>"; };
+		2147700522593161005A5029 /* ProtectedTemplatePatternBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtectedTemplatePatternBaseViewController.swift; sourceTree = "<group>"; };
 		21C4ED9922548C95003EFE28 /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21C4ED9C22548C96003EFE28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21C4ED9E22548C96003EFE28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -70,6 +82,7 @@
 			children = (
 				2141FEEA2258E61D009B6E5A /* New- ImitatePattern */,
 				2141FEDF2258CC4D009B6E5A /* Prototype Pattern */,
+				21476FF922592789005A5029 /* Singleton */,
 			);
 			path = "Creational Patterns";
 			sourceTree = "<group>";
@@ -94,6 +107,26 @@
 				2141FEF12258E97C009B6E5A /* OrderCarModel.swift */,
 			);
 			path = "New- ImitatePattern";
+			sourceTree = "<group>";
+		};
+		21476FF922592789005A5029 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				21476FFA225927AB005A5029 /* SingletonViewController.swift */,
+				21476FFB225927AB005A5029 /* SingletonViewController.xib */,
+				21476FFE2259285C005A5029 /* SingletonClass.swift */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+		2147700022593118005A5029 /* New- Protected Template Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				214770012259313B005A5029 /* ProtectedTemplatePatternViewController.swift */,
+				214770022259313B005A5029 /* ProtectedTemplatePatternViewController.xib */,
+				2147700522593161005A5029 /* ProtectedTemplatePatternBaseViewController.swift */,
+			);
+			path = "New- Protected Template Pattern";
 			sourceTree = "<group>";
 		};
 		21C4ED9022548C95003EFE28 = {
@@ -133,6 +166,7 @@
 		21C4EDAE22548CC2003EFE28 /* Behavioral Patterns */ = {
 			isa = PBXGroup;
 			children = (
+				2147700022593118005A5029 /* New- Protected Template Pattern */,
 				21C4EDAF22548CCA003EFE28 /* Template Pattern */,
 			);
 			path = "Behavioral Patterns";
@@ -236,6 +270,8 @@
 				21C4EDA422548C98003EFE28 /* Assets.xcassets in Resources */,
 				21C4EDC022549A96003EFE28 /* TemplateViewController.xib in Resources */,
 				21C4EDA222548C96003EFE28 /* Main.storyboard in Resources */,
+				21476FFD225927AB005A5029 /* SingletonViewController.xib in Resources */,
+				214770042259313B005A5029 /* ProtectedTemplatePatternViewController.xib in Resources */,
 				2141FEE92258CDE9009B6E5A /* PrototypePatternViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,12 +284,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				2141FEE82258CDE9009B6E5A /* PrototypePatternViewController.swift in Sources */,
+				214770032259313B005A5029 /* ProtectedTemplatePatternViewController.swift in Sources */,
 				2141FEE32258CCA9009B6E5A /* PrototypeModel.swift in Sources */,
 				21C4EDBA2254946E003EFE28 /* UIViewController+DP.swift in Sources */,
 				2141FEED2258E667009B6E5A /* ImitatePatternViewController.swift in Sources */,
 				21C4EDB7225493D3003EFE28 /* Utils.swift in Sources */,
 				2141FEE52258CD26009B6E5A /* SubPrototypeModel.swift in Sources */,
+				21476FFC225927AB005A5029 /* SingletonViewController.swift in Sources */,
 				21C4EDC222549B94003EFE28 /* TemplateBaseViewController.swift in Sources */,
+				2147700622593161005A5029 /* ProtectedTemplatePatternBaseViewController.swift in Sources */,
+				21476FFF2259285C005A5029 /* SingletonClass.swift in Sources */,
 				2141FEF22258E97D009B6E5A /* OrderCarModel.swift in Sources */,
 				21C4ED9F22548C96003EFE28 /* ViewController.swift in Sources */,
 				21C4ED9D22548C96003EFE28 /* AppDelegate.swift in Sources */,

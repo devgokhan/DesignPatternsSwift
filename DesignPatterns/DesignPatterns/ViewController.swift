@@ -31,12 +31,20 @@ class ViewController: UIViewController {
                     
                     CategoriesModel(title: "Prototype Pattern", action: {
                         self.navigationController?.pushViewController(PrototypePatternViewController(), animated: true)
+                    }),
+                    
+                    CategoriesModel(title: "Singleton Pattern", action: {
+                        self.navigationController?.pushViewController(SingletonViewController(), animated: true)
                     })
                 ]
             ))
             
             categories.append(CategoriesModel(title: "Behavioral Patterns", subCategories:
                 [
+                    CategoriesModel(title: "NEW! - Protected Template Pattern", action: {
+                        self.navigationController?.pushViewController(ProtectedTemplatePatternViewController(), animated: true)
+                    }),
+                    
                     CategoriesModel(title: "Template Pattern", action: {
                          self.navigationController?.pushViewController(TemplateViewController(), animated: true)
                     })

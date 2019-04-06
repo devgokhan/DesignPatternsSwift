@@ -6,6 +6,9 @@
 //  Copyright © 2019 Gokhan Alp. All rights reserved.
 //
 
+// EXTRA INFO!
+// This patten founded by Gökhan ALP
+
 import UIKit
 
 class ImitatePatternViewController: UIViewController {
@@ -18,7 +21,8 @@ class ImitatePatternViewController: UIViewController {
         let groundVehicle = GroundVehiclesModel(name: "Ford Focus", weight: 2230, wheelCount: 4)
         
         // Then you need to send kind, name and plate code
-        if let orderCar = groundVehicle.imitateAs(type: OrderCarModel.self) {
+        
+        if (groundVehicle.wheelCount == 4), let orderCar = groundVehicle.imitateAs(type: OrderCarModel.self) {
             orderCar.plateCode = "ABCD1234"
             orderCar.type = "Car"
             
