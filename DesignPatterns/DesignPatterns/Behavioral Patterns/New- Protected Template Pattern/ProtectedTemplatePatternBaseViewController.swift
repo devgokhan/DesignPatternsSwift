@@ -34,6 +34,4 @@ class ProtectedTemplatePatternBaseViewController: UIViewController {
     {
         print("Extra log - not neccassary to call this!")
     }
-    
-
 }

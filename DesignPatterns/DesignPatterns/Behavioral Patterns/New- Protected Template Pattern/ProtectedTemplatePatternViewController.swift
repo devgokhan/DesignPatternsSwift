@@ -11,6 +11,7 @@ import UIKit
 class ProtectedTemplatePatternViewController: ProtectedTemplatePatternBaseViewController {
     
     @IBOutlet weak var label: UILabel!
+
     override func workSome(uuid: String) {
         //Assume that developer forgot to call super function of this function
         //Even he/she is forgot, function works correct
