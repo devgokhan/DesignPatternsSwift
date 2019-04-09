@@ -26,14 +26,11 @@ class GeneralUtils
         return vc
     }
     
-    static func goToViewController<T:UIViewController> (from: UIViewController, target: T.Type)
-    {
-        let targetVC = GeneralUtils.getViewController(target, storyboard: .main) as UIViewController
-        
+    static func goToViewController(from: UIViewController, to: UIViewController) {
         if(from.navigationController != nil) {
-            from.navigationController?.pushViewController(targetVC, animated: true)
+            from.navigationController?.pushViewController(to, animated: true)
         } else {
-            from.present(targetVC, animated: true, completion: nil)
+            from.present(to, animated: true, completion: nil)
         }
     }
     

@@ -50,6 +50,15 @@ class ViewController: UIViewController {
                     })
                 ]
             ))
+            
+            categories.append(CategoriesModel(title: "Architectural Patterns", subCategories:
+                [
+                    CategoriesModel(title: "NEW! - Util Based Pattern", action: {
+                        self.navigationController?.pushViewController(UtilsSampleViewController(), animated: true)
+                    }),
+                    
+                ]
+            ))
         }
         self.tableView.reloadData()
     }
