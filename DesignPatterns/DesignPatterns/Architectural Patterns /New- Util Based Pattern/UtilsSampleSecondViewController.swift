@@ -12,5 +12,7 @@ class UtilsSampleSecondViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        AdvertisementsUtils.shared.showBannerAds()
+        AdvertisementsUtils.shared.showInterstitialAds()
     }
 }

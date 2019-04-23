@@ -12,6 +12,7 @@ class UtilsSampleViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        AdvertisementsUtils.shared.showBannerAds()
     }
     
     @IBAction func goToSecondPage(_ sender: Any) {

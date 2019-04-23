@@ -33,10 +33,4 @@ class GeneralUtils
             from.present(to, animated: true, completion: nil)
         }
     }
-    
-    static func connectOnViewController(viewController: UIViewController) -> UINavigationController
-    {
-        let navigationController = UINavigationController(rootViewController: viewController)
-        return navigationController
-    }
 }
