@@ -17,6 +17,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.setData()
+        let a = ConverterExampleClassA()
+        a.dateval = Date()
+        let b = Converter.convert(from: a, to: ConverterExampleClassB.self, tag: .defaultTag)
+        Utils.log(b.stringval ?? "")
     }
     
     func setData()
@@ -55,6 +59,10 @@ class ViewController: UIViewController {
                 [
                     CategoriesModel(title: "NEW! - Util Based Pattern", action: {
                         self.navigationController?.pushViewController(UtilsSampleViewController(), animated: true)
+                    }),
+                    
+                    CategoriesModel(title: "Coordinator Pattern", action: {
+                        self.navigationController?.pushViewController(CoordinatorPatternCoordinator().start(), animated: true)
                     }),
                     
                 ]

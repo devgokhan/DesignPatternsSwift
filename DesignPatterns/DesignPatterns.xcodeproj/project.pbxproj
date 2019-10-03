@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		212A6D1B22771A4E00EC87E9 /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212A6D1A22771A4E00EC87E9 /* Converter.swift */; };
+		212A6D1D22771A5B00EC87E9 /* ConverterEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212A6D1C22771A5B00EC87E9 /* ConverterEnums.swift */; };
+		212A6D1F22771AE700EC87E9 /* ConverterExampleClassA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212A6D1E22771AE700EC87E9 /* ConverterExampleClassA.swift */; };
+		212A6D2122771AF600EC87E9 /* ConverterExampleClassB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212A6D2022771AF600EC87E9 /* ConverterExampleClassB.swift */; };
 		2141FEE32258CCA9009B6E5A /* PrototypeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2141FEE22258CCA9009B6E5A /* PrototypeModel.swift */; };
 		2141FEE52258CD26009B6E5A /* SubPrototypeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2141FEE42258CD26009B6E5A /* SubPrototypeModel.swift */; };
 		2141FEE82258CDE9009B6E5A /* PrototypePatternViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2141FEE62258CDE9009B6E5A /* PrototypePatternViewController.swift */; };
@@ -27,6 +31,11 @@
 		216B4FF7225BEB29000C5BE3 /* UtilsSampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 216B4FF5225BEB29000C5BE3 /* UtilsSampleViewController.xib */; };
 		216B4FFA225BEB74000C5BE3 /* UtilsSampleSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216B4FF8225BEB74000C5BE3 /* UtilsSampleSecondViewController.swift */; };
 		216B4FFB225BEB74000C5BE3 /* UtilsSampleSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 216B4FF9225BEB74000C5BE3 /* UtilsSampleSecondViewController.xib */; };
+		219A3588226F7FBE005BBB4C /* CoordinatorPatternCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219A3587226F7FBE005BBB4C /* CoordinatorPatternCoordinator.swift */; };
+		219A358B226F7FFD005BBB4C /* CoordinatorPatternListPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219A3589226F7FFD005BBB4C /* CoordinatorPatternListPageViewController.swift */; };
+		219A358C226F7FFD005BBB4C /* CoordinatorPatternListPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 219A358A226F7FFD005BBB4C /* CoordinatorPatternListPageViewController.xib */; };
+		219A358F226F82FE005BBB4C /* CoordinatorPatternDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219A358D226F82FE005BBB4C /* CoordinatorPatternDetailViewController.swift */; };
+		219A3590226F82FE005BBB4C /* CoordinatorPatternDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 219A358E226F82FE005BBB4C /* CoordinatorPatternDetailViewController.xib */; };
 		21C4ED9D22548C96003EFE28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C4ED9C22548C96003EFE28 /* AppDelegate.swift */; };
 		21C4ED9F22548C96003EFE28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C4ED9E22548C96003EFE28 /* ViewController.swift */; };
 		21C4EDA222548C96003EFE28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21C4EDA022548C96003EFE28 /* Main.storyboard */; };
@@ -39,9 +48,24 @@
 		21C4EDBF22549A96003EFE28 /* TemplateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C4EDBD22549A96003EFE28 /* TemplateViewController.swift */; };
 		21C4EDC022549A96003EFE28 /* TemplateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21C4EDBE22549A96003EFE28 /* TemplateViewController.xib */; };
 		21C4EDC222549B94003EFE28 /* TemplateBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C4EDC122549B94003EFE28 /* TemplateBaseViewController.swift */; };
+		21F3AE4022B54D9A00C884F3 /* PageCreatorUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F3AE3F22B54D9A00C884F3 /* PageCreatorUtils.swift */; };
+		21F3AE4322B5509800C884F3 /* SamplePageAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F3AE4122B5509800C884F3 /* SamplePageAViewController.swift */; };
+		21F3AE4422B5509800C884F3 /* SamplePageAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21F3AE4222B5509800C884F3 /* SamplePageAViewController.xib */; };
+		21F3AE4722B550AF00C884F3 /* SamplePageBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F3AE4522B550AF00C884F3 /* SamplePageBViewController.swift */; };
+		21F3AE4822B550AF00C884F3 /* SamplePageBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21F3AE4622B550AF00C884F3 /* SamplePageBViewController.xib */; };
+		21F3AE4B22B550C000C884F3 /* SamplePageCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F3AE4922B550C000C884F3 /* SamplePageCViewController.swift */; };
+		21F3AE4C22B550C000C884F3 /* SamplePageCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21F3AE4A22B550C000C884F3 /* SamplePageCViewController.xib */; };
+		21F3AE4F22B553BC00C884F3 /* SamplePageDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F3AE4D22B553BC00C884F3 /* SamplePageDViewController.swift */; };
+		21F3AE5022B553BC00C884F3 /* SamplePageDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21F3AE4E22B553BC00C884F3 /* SamplePageDViewController.xib */; };
+		21F3AE5322B553DE00C884F3 /* SamplePageEViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F3AE5122B553DE00C884F3 /* SamplePageEViewController.swift */; };
+		21F3AE5422B553DE00C884F3 /* SamplePageEViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21F3AE5222B553DE00C884F3 /* SamplePageEViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		212A6D1A22771A4E00EC87E9 /* Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
+		212A6D1C22771A5B00EC87E9 /* ConverterEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterEnums.swift; sourceTree = "<group>"; };
+		212A6D1E22771AE700EC87E9 /* ConverterExampleClassA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterExampleClassA.swift; sourceTree = "<group>"; };
+		212A6D2022771AF600EC87E9 /* ConverterExampleClassB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterExampleClassB.swift; sourceTree = "<group>"; };
 		2141FEE22258CCA9009B6E5A /* PrototypeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeModel.swift; sourceTree = "<group>"; };
 		2141FEE42258CD26009B6E5A /* SubPrototypeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubPrototypeModel.swift; sourceTree = "<group>"; };
 		2141FEE62258CDE9009B6E5A /* PrototypePatternViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypePatternViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +86,11 @@
 		216B4FF5225BEB29000C5BE3 /* UtilsSampleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UtilsSampleViewController.xib; sourceTree = "<group>"; };
 		216B4FF8225BEB74000C5BE3 /* UtilsSampleSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilsSampleSecondViewController.swift; sourceTree = "<group>"; };
 		216B4FF9225BEB74000C5BE3 /* UtilsSampleSecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UtilsSampleSecondViewController.xib; sourceTree = "<group>"; };
+		219A3587226F7FBE005BBB4C /* CoordinatorPatternCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorPatternCoordinator.swift; sourceTree = "<group>"; };
+		219A3589226F7FFD005BBB4C /* CoordinatorPatternListPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorPatternListPageViewController.swift; sourceTree = "<group>"; };
+		219A358A226F7FFD005BBB4C /* CoordinatorPatternListPageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoordinatorPatternListPageViewController.xib; sourceTree = "<group>"; };
+		219A358D226F82FE005BBB4C /* CoordinatorPatternDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorPatternDetailViewController.swift; sourceTree = "<group>"; };
+		219A358E226F82FE005BBB4C /* CoordinatorPatternDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoordinatorPatternDetailViewController.xib; sourceTree = "<group>"; };
 		21C4ED9922548C95003EFE28 /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21C4ED9C22548C96003EFE28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21C4ED9E22548C96003EFE28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +105,17 @@
 		21C4EDBD22549A96003EFE28 /* TemplateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateViewController.swift; sourceTree = "<group>"; };
 		21C4EDBE22549A96003EFE28 /* TemplateViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TemplateViewController.xib; sourceTree = "<group>"; };
 		21C4EDC122549B94003EFE28 /* TemplateBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateBaseViewController.swift; sourceTree = "<group>"; };
+		21F3AE3F22B54D9A00C884F3 /* PageCreatorUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCreatorUtils.swift; sourceTree = "<group>"; };
+		21F3AE4122B5509800C884F3 /* SamplePageAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamplePageAViewController.swift; sourceTree = "<group>"; };
+		21F3AE4222B5509800C884F3 /* SamplePageAViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SamplePageAViewController.xib; sourceTree = "<group>"; };
+		21F3AE4522B550AF00C884F3 /* SamplePageBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamplePageBViewController.swift; sourceTree = "<group>"; };
+		21F3AE4622B550AF00C884F3 /* SamplePageBViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SamplePageBViewController.xib; sourceTree = "<group>"; };
+		21F3AE4922B550C000C884F3 /* SamplePageCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamplePageCViewController.swift; sourceTree = "<group>"; };
+		21F3AE4A22B550C000C884F3 /* SamplePageCViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SamplePageCViewController.xib; sourceTree = "<group>"; };
+		21F3AE4D22B553BC00C884F3 /* SamplePageDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamplePageDViewController.swift; sourceTree = "<group>"; };
+		21F3AE4E22B553BC00C884F3 /* SamplePageDViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SamplePageDViewController.xib; sourceTree = "<group>"; };
+		21F3AE5122B553DE00C884F3 /* SamplePageEViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamplePageEViewController.swift; sourceTree = "<group>"; };
+		21F3AE5222B553DE00C884F3 /* SamplePageEViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SamplePageEViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +129,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		212A6D1922771A4000EC87E9 /* Converter */ = {
+			isa = PBXGroup;
+			children = (
+				212A6D1A22771A4E00EC87E9 /* Converter.swift */,
+				212A6D1C22771A5B00EC87E9 /* ConverterEnums.swift */,
+				212A6D1E22771AE700EC87E9 /* ConverterExampleClassA.swift */,
+				212A6D2022771AF600EC87E9 /* ConverterExampleClassB.swift */,
+			);
+			path = Converter;
+			sourceTree = "<group>";
+		};
 		2141FEDE2258CC27009B6E5A /* Creational Patterns */ = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +195,7 @@
 		216B4FEB225BE0F0000C5BE3 /* Architectural Patterns  */ = {
 			isa = PBXGroup;
 			children = (
+				219A3586226F7D9C005BBB4C /* Coordinator Pattern */,
 				216B4FEC225BE10A000C5BE3 /* New- Util Based Pattern */,
 			);
 			path = "Architectural Patterns ";
@@ -157,6 +209,16 @@
 				216B4FF5225BEB29000C5BE3 /* UtilsSampleViewController.xib */,
 				216B4FF8225BEB74000C5BE3 /* UtilsSampleSecondViewController.swift */,
 				216B4FF9225BEB74000C5BE3 /* UtilsSampleSecondViewController.xib */,
+				21F3AE4122B5509800C884F3 /* SamplePageAViewController.swift */,
+				21F3AE4222B5509800C884F3 /* SamplePageAViewController.xib */,
+				21F3AE4522B550AF00C884F3 /* SamplePageBViewController.swift */,
+				21F3AE4622B550AF00C884F3 /* SamplePageBViewController.xib */,
+				21F3AE4922B550C000C884F3 /* SamplePageCViewController.swift */,
+				21F3AE4A22B550C000C884F3 /* SamplePageCViewController.xib */,
+				21F3AE4D22B553BC00C884F3 /* SamplePageDViewController.swift */,
+				21F3AE4E22B553BC00C884F3 /* SamplePageDViewController.xib */,
+				21F3AE5122B553DE00C884F3 /* SamplePageEViewController.swift */,
+				21F3AE5222B553DE00C884F3 /* SamplePageEViewController.xib */,
 			);
 			path = "New- Util Based Pattern";
 			sourceTree = "<group>";
@@ -166,8 +228,21 @@
 			children = (
 				216B4FEE225BE13D000C5BE3 /* GeneralUtils.swift */,
 				216B4FF2225BE1BB000C5BE3 /* AdvertisementsUtils.swift */,
+				21F3AE3F22B54D9A00C884F3 /* PageCreatorUtils.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		219A3586226F7D9C005BBB4C /* Coordinator Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				219A3587226F7FBE005BBB4C /* CoordinatorPatternCoordinator.swift */,
+				219A3589226F7FFD005BBB4C /* CoordinatorPatternListPageViewController.swift */,
+				219A358A226F7FFD005BBB4C /* CoordinatorPatternListPageViewController.xib */,
+				219A358D226F82FE005BBB4C /* CoordinatorPatternDetailViewController.swift */,
+				219A358E226F82FE005BBB4C /* CoordinatorPatternDetailViewController.xib */,
+			);
+			path = "Coordinator Pattern";
 			sourceTree = "<group>";
 		};
 		21C4ED9022548C95003EFE28 = {
@@ -189,6 +264,7 @@
 		21C4ED9B22548C95003EFE28 /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				212A6D1922771A4000EC87E9 /* Converter */,
 				21C4EDB822549459003EFE28 /* Extensions */,
 				21C4EDB5225493C2003EFE28 /* Utils */,
 				21C4EDB222548DB8003EFE28 /* Models */,
@@ -307,15 +383,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21F3AE5022B553BC00C884F3 /* SamplePageDViewController.xib in Resources */,
+				21F3AE4422B5509800C884F3 /* SamplePageAViewController.xib in Resources */,
 				2141FEEE2258E667009B6E5A /* ImitatePatternViewController.xib in Resources */,
 				21C4EDA722548C98003EFE28 /* LaunchScreen.storyboard in Resources */,
 				21C4EDA422548C98003EFE28 /* Assets.xcassets in Resources */,
 				21C4EDC022549A96003EFE28 /* TemplateViewController.xib in Resources */,
 				21C4EDA222548C96003EFE28 /* Main.storyboard in Resources */,
+				21F3AE4822B550AF00C884F3 /* SamplePageBViewController.xib in Resources */,
 				21476FFD225927AB005A5029 /* SingletonViewController.xib in Resources */,
+				219A358C226F7FFD005BBB4C /* CoordinatorPatternListPageViewController.xib in Resources */,
+				219A3590226F82FE005BBB4C /* CoordinatorPatternDetailViewController.xib in Resources */,
+				21F3AE5422B553DE00C884F3 /* SamplePageEViewController.xib in Resources */,
 				216B4FFB225BEB74000C5BE3 /* UtilsSampleSecondViewController.xib in Resources */,
 				214770042259313B005A5029 /* ProtectedTemplatePatternViewController.xib in Resources */,
 				216B4FF7225BEB29000C5BE3 /* UtilsSampleViewController.xib in Resources */,
+				21F3AE4C22B550C000C884F3 /* SamplePageCViewController.xib in Resources */,
 				2141FEE92258CDE9009B6E5A /* PrototypePatternViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -329,7 +412,11 @@
 			files = (
 				2141FEE82258CDE9009B6E5A /* PrototypePatternViewController.swift in Sources */,
 				214770032259313B005A5029 /* ProtectedTemplatePatternViewController.swift in Sources */,
+				212A6D1B22771A4E00EC87E9 /* Converter.swift in Sources */,
+				21F3AE4B22B550C000C884F3 /* SamplePageCViewController.swift in Sources */,
+				21F3AE4022B54D9A00C884F3 /* PageCreatorUtils.swift in Sources */,
 				216B4FFA225BEB74000C5BE3 /* UtilsSampleSecondViewController.swift in Sources */,
+				219A358B226F7FFD005BBB4C /* CoordinatorPatternListPageViewController.swift in Sources */,
 				2141FEE32258CCA9009B6E5A /* PrototypeModel.swift in Sources */,
 				21C4EDBA2254946E003EFE28 /* UIViewController+DP.swift in Sources */,
 				2141FEED2258E667009B6E5A /* ImitatePatternViewController.swift in Sources */,
@@ -338,14 +425,23 @@
 				216B4FEF225BE13D000C5BE3 /* GeneralUtils.swift in Sources */,
 				21476FFC225927AB005A5029 /* SingletonViewController.swift in Sources */,
 				21C4EDC222549B94003EFE28 /* TemplateBaseViewController.swift in Sources */,
+				219A358F226F82FE005BBB4C /* CoordinatorPatternDetailViewController.swift in Sources */,
+				219A3588226F7FBE005BBB4C /* CoordinatorPatternCoordinator.swift in Sources */,
 				2147700622593161005A5029 /* ProtectedTemplatePatternBaseViewController.swift in Sources */,
 				21476FFF2259285C005A5029 /* SingletonClass.swift in Sources */,
+				21F3AE5322B553DE00C884F3 /* SamplePageEViewController.swift in Sources */,
 				216B4FF6225BEB29000C5BE3 /* UtilsSampleViewController.swift in Sources */,
+				212A6D1F22771AE700EC87E9 /* ConverterExampleClassA.swift in Sources */,
+				212A6D1D22771A5B00EC87E9 /* ConverterEnums.swift in Sources */,
 				2141FEF22258E97D009B6E5A /* OrderCarModel.swift in Sources */,
 				21C4ED9F22548C96003EFE28 /* ViewController.swift in Sources */,
+				21F3AE4F22B553BC00C884F3 /* SamplePageDViewController.swift in Sources */,
+				212A6D2122771AF600EC87E9 /* ConverterExampleClassB.swift in Sources */,
 				21C4ED9D22548C96003EFE28 /* AppDelegate.swift in Sources */,
 				21C4EDBC225494DF003EFE28 /* Enums.swift in Sources */,
+				21F3AE4722B550AF00C884F3 /* SamplePageBViewController.swift in Sources */,
 				21C4EDB422548E0F003EFE28 /* CategoriesModel.swift in Sources */,
+				21F3AE4322B5509800C884F3 /* SamplePageAViewController.swift in Sources */,
 				21C4EDBF22549A96003EFE28 /* TemplateViewController.swift in Sources */,
 				2141FEF02258E6D0009B6E5A /* GroundVehiclesModel.swift in Sources */,
 				216B4FF3225BE1BB000C5BE3 /* AdvertisementsUtils.swift in Sources */,

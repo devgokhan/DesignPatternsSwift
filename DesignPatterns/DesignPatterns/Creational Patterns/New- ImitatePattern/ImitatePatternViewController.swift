@@ -28,6 +28,7 @@ class ImitatePatternViewController: UIViewController {
             
             // Print results
             self.label1.text = "Imported Info\nName: \(groundVehicle.name)\nWeight: \(groundVehicle.weight)\nWheel Count: \(groundVehicle.wheelCount)"
+            
             self.label2.text = "Exported Info\nName: \(orderCar.name)\nPlate Code: \(orderCar.plateCode!)\nType: \(orderCar.type!)"
         }
     }
